@@ -16,7 +16,8 @@
     "release:version": "npm run release:version:build && npm run release:version:git",
     "release:bump": "standard-version",
     "release:post": "npm run release:tags",
-    "release": "npm run release:bump &&  npm run release:version && npm run release:post"
+    "release": "npm run release:bump &&  npm run release:version && npm run release:post",
+    "release:develop": "git push && npm run release"
   },
   "private": true,
   "dependencies": {
