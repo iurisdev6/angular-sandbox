@@ -1,6 +1,6 @@
 {
   "name": "kitano",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -14,7 +14,7 @@
     "inner-version": "node ./version.build.js && git status && git add . && git status && npm run push:git",
     "release:tags": "npm run push:tags",
     "release:bump": "standard-version",
-    "release:full" : "npm run release:tags && npm run release:bump",
+    "release:full": "npm run release:tags && npm run release:bump",
     "bump": "npm run release:bump &&  npm run inner-version"
   },
   "private": true,
