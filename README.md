@@ -37,10 +37,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 + **chore:, docs:, style:, refactor:, perf:, test:, improvement:**
 
-> feat(parser): add ability to parse arrays
-> docs: correct spelling of CHANGELOG
-> feat(lang): added polish language
-> fixes issue #1
+> + feat(parser): add ability to parse arrays
+> + docs: correct spelling of CHANGELOG
+> + feat(lang): added polish language
+> + fixes issue #1
 
 ### Why Use Conventional Commits
 
