@@ -9,12 +9,13 @@ import { environment } from '../../../environments/environment.prod';
 export class FooterComponent implements OnInit {
 
   private version;
+  private date;
 
   constructor() { }
 
   ngOnInit() {
-    console.log('sup', environment.appVersion);
     this.version = environment.appVersion;
+    this.date = environment.buildDate;
   }
 
 }
