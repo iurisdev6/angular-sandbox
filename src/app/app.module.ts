@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ProductsComponent } from './modules/products/products.component';
 import { ReviewsComponent } from './modules/reviews/reviews.component';
 import { RatingComponent } from './modules/rating/rating.component';
+import { HanabiComponent } from './modules/hanabi/hanabi.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RatingComponent } from './modules/rating/rating.component';
     HeaderComponent,
     ProductsComponent,
     ReviewsComponent,
-    RatingComponent
+    RatingComponent,
+    HanabiComponent
   ],
   imports: [
     BrowserModule,
