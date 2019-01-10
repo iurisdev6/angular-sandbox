@@ -52,3 +52,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Additional information
 [The Complete Guide to Versioning Angular Apps](https://christianlydemann.com/versioning-your-angular-app-automatically-with-standard-version/)
++ [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
++ [standard-version](https://github.com/conventional-changelog/standard-version)  automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
