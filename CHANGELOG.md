@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.4"></a>
+## [0.3.4](https://github.com/iurisdev6/angular-sandbox/compare/v0.3.3...v0.3.4) (2019-01-10)
+
+
+### Bug Fixes
+
+* modify scripts ([8b2bbf6](https://github.com/iurisdev6/angular-sandbox/commit/8b2bbf6))
+
+
+
 <a name="0.3.3"></a>
 ## [0.3.3](https://github.com/iurisdev6/angular-sandbox/compare/v0.3.2...v0.3.3) (2019-01-10)
 
