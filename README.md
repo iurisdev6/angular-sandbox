@@ -49,3 +49,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 + Communicating the nature of changes to teammates, the public, and other stakeholders.
 + Triggering build and publish processes.
 + Making it easier for people to contribute to your projects, by allowing them to explore a more structured commit history.
+
+## Additional information
+[The Complete Guide to Versioning Angular Apps](https://christianlydemann.com/versioning-your-angular-app-automatically-with-standard-version/)
