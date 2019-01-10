@@ -2,12 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 
-## Git Workflow
+## Weak Git Workflow
 
 + Make changes to the code
 + Commit (give compliant names, such as feat: fix: docs: chore:)
 + Touch base in group chat what are current package version on other working branches
 + Run *npm run release:develop* to push your changes with updated version
++ Go to github , create pull request to develop branch
++ Assign reviewers
++ Squash and merge after code review approved
+
+## Proper Git Workflow
+
++ Make changes to the code
++ Commit (give compliant names, such as feat: fix: docs: chore:)
++ Run version bump on github
 
 ## Changelog
 [Conventional Commits Specs](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification)
