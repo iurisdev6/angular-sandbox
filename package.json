@@ -14,7 +14,7 @@
     "inner-version": "node ./version.build.js && git status && git add . && git status && npm run push:git",
     "release:tags": "npm run push:tags",
     "release:bump": "standard-version",
-    "release:full": "npm run release:tags && npm run release:bump",
+    "release:full": "npm run release:bump && npm run release:tags",
     "bump": "npm run release:bump &&  npm run inner-version"
   },
   "private": true,
