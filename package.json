@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "version-build": "npm version patch && node ./version.build.js"
+    "version-build": "npm version patch && node ./version.build.js",
+    "changelog": "node ./version.build.js && npm run standard-version"
   },
   "private": true,
   "dependencies": {
