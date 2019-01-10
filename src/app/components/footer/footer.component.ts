@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../../../environments/environment.prod';
 
 @Component({
   selector: 'kitano-footer',
@@ -12,6 +13,8 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('sup', environment.appVersion);
+    this.version = environment.appVersion;
   }
 
 }
