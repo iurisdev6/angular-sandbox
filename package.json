@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "version-build": "npm version patch && node ./version.build.js",
-    "bump": "node ./version.build.js && standard-version"
+    "bump": "node ./version.build.js && git add . && standard-version"
   },
   "private": true,
   "dependencies": {
