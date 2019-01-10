@@ -18,6 +18,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 + Commit (give compliant names, such as feat: fix: docs: chore:)
 + Run version bump on github
 
+## Additional cases
++ in case code review changes - commits has to be tagged with proper version v.0.0.0 - and pushed normally , not through npm run release:develop
+
+
 ## Changelog
 [Conventional Commits Specs](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification)
 

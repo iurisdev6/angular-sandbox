@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "bump": "npm run release:bump &&  npm run inner-version",
-    "release:tags": "git push --follow-tags origin master",
+    "release:tags": "git push --follow-tags",
     "version:build": "npm version patch && node ./version.build.js",
     "release:version:build": "node ./version.build.js",
     "release:version:git": "git add src/environments/version.ts && git commit -m \"chore(release): bump version.ts\" && git push",
