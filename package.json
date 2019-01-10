@@ -9,10 +9,13 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "push:git": "git push origin HEAD:master",
+    "push:tags": "git push --follow-tags origin master",
     "version-build": "npm version patch && node ./version.build.js",
     "inner-version": "node ./version.build.js && git status && git add . && git status && npm run push:git",
-    "release": "standard-version",
-    "bump": "npm run release &&  npm run inner-version"
+    "release:tags": "npm run push:tags",
+    "release:bump": "standard-version",
+    "release:full" : "npm run release:tags && npm run release:bump",
+    "bump": "npm run release:bump &&  npm run inner-version"
   },
   "private": true,
   "dependencies": {
