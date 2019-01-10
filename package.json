@@ -12,7 +12,7 @@
     "release:tags": "git push --follow-tags origin master",
     "version:build": "npm version patch && node ./version.build.js",
     "release:version:build": "node ./version.build.js",
-    "release:version:git": "git add src/environments/version.ts && git commit -m \"bump version.ts\" && git push",
+    "release:version:git": "git add src/environments/version.ts && git commit -m \"chore(release): bump version.ts\" && git push",
     "release:version": "npm run release:version:build && npm run release:version:git",
     "release:bump": "standard-version",
     "release:post": "npm run release:tags",
