@@ -1,6 +1,6 @@
 {
   "name": "kitano",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "version-build": "npm version patch && node ./version.build.js",
-    "bump": "node ./version.build.js && npm run standard-version"
+    "bump": "node ./version.build.js && standard-version"
   },
   "private": true,
   "dependencies": {
