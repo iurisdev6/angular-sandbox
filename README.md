@@ -2,29 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 
-## Development server
+## Weak Git Workflow
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
++ Make changes to the code
++ Commit (give compliant names, such as feat: fix: docs: chore:)
++ Touch base in group chat what are current package version on other working branches
++ Run *npm run release:develop* to push your changes with updated version
++ Go to github , create pull request to develop branch
++ Assign reviewers
++ Squash and merge after code review approved
 
-## Code scaffolding
+## Proper Git Workflow
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
++ Make changes to the code
++ Commit (give compliant names, such as feat: fix: docs: chore:)
++ Run version bump on github
 
-## Build
+## Additional cases
++ in case code review changes - commits has to be tagged with proper version v.0.0.0 - and pushed normally , not through npm run release:develop
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Changelog
 [Conventional Commits Specs](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification)
@@ -54,3 +50,27 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [The Complete Guide to Versioning Angular Apps](https://christianlydemann.com/versioning-your-angular-app-automatically-with-standard-version/)
 + [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
 + [standard-version](https://github.com/conventional-changelog/standard-version)  automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

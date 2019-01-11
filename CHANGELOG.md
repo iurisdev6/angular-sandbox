@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.7.0"></a>
+# [0.7.0](https://github.com/iurisdev6/angular-sandbox/compare/v0.4.2...v0.7.0) (2019-01-10)
+
+
+### Features
+
+* add rating component ([#1](https://github.com/iurisdev6/angular-sandbox/issues/1)) ([c31a3a6](https://github.com/iurisdev6/angular-sandbox/commit/c31a3a6))
+
+
+
 <a name="0.6.0"></a>
 # [0.6.0](https://github.com/iurisdev6/angular-sandbox/compare/v0.4.2...v0.6.0) (2019-01-10)
 
